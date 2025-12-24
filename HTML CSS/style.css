@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li a {
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+ul,
+li,
+button {
+  margin-left: 5rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.main {
+  display: flex;
+  height: 500px;
+  width: 100%;
+}
+
+.image {
+  width: 60%;
+}
+
+.image img {
+  height: 500px;
+  width: 600px;
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.content h1 {
+  position: relative;
+  top: 5rem;
+  font-size: 60px;
+  text-align: center;
+}
+
+.content p {
+  position: relative;
+  margin-top: 7rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.spekers {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.speakers-main-div {
+  height: 300px;
+  width: 300px;
+  /* border: 2px solid black; */
+  padding: 10px;
+  min-width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.speaker-image img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 13px -2px black;
+  position: relative;
+  left: 33px;
+  cursor: pointer;
+}
+
+.speaker-content h1 {
+  text-align: center;
+}
+
+.speaker-content p {
+  text-align: center;
+}
+
+.footer {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.ul-wala-div h1 {
+  position: relative;
+  left: 6rem;
+}
+
+.ul li {
+  text-align: start;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.ul li:hover {
+  color: orange;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input input {
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.input button {
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
