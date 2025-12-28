@@ -27,6 +27,7 @@ nav {
   z-index: 997;
   position: fixed;
   top: 0;
+  width: 100%;
 }
 
 nav .logo {
