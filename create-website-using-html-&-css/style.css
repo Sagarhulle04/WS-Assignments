@@ -577,3 +577,45 @@ nav .items button {
   color: #444444;
   margin-bottom: 20px;
 }
+
+/* clients */
+
+.clients {
+  max-width: 85%;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.clients p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  background: color-mix(in srgb, #4154f1, transparent 90%);
+  color: #4154f1;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.clients h4 {
+  color: #012970;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: "Nunito", sans-serif;
+}
+
+.clients .cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.clients .cards .card img {
+  height: 60px;
+  width: 100px;
+  cursor: pointer;
+}
