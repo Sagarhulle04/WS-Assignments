@@ -619,3 +619,92 @@ nav .items button {
   width: 100px;
   cursor: pointer;
 }
+
+/* contact */
+.contact {
+  max-width: 85%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 20px;
+  background: #eef1ff;
+  color: #4154f1;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.contact h4 {
+  font-size: 32px;
+  margin: 20px 0 50px;
+  color: #012970;
+}
+
+.contact-main-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact-left-card {
+  flex: 1 1 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.contact-left-card .card {
+  flex: 1 1 calc(50% - 25px);
+  background: #f9f9f9;
+  padding: 30px;
+  text-align: left;
+}
+
+.contact-left-card h2 {
+  color: #012970;
+  margin-bottom: 10px;
+}
+
+.contact-left-card span {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.contact-right-card {
+  flex: 1 1 450px;
+  background: #f9f9f9;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-right-card input {
+  flex: 1 1 calc(50% - 10px);
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.contact-right-card textarea {
+  flex: 1 1 100%;
+  height: 150px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.contact-right-card button {
+  flex: 1 1 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 12px;
+  background: #4a5cf5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
