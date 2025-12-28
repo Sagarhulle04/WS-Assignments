@@ -240,12 +240,20 @@ nav .items button {
   cursor: pointer;
 }
 
+.our-values h4 {
+  color: #012970;
+  margin: 10px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+
 .our-values .value-card {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
   gap: 20px;
 }
 
@@ -275,4 +283,94 @@ nav .items button {
   margin-bottom: 1rem;
   color: #444444;
   font-size: 15px;
+}
+
+/* our-features */
+
+.our-features {
+  max-width: 1200px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.our-features p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  background: color-mix(in srgb, #4154f1, transparent 90%);
+  color: #4154f1;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.our-features h4 {
+  color: #012970;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: "Nunito", sans-serif;
+}
+
+.our-features .main-feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.our-features .image {
+  flex: 1;
+  text-align: center;
+}
+
+.our-features .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.our-features .cards {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.our-features .cards .card {
+  flex: 0 0 calc(50% - 12.5px);
+  background: #fff;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.our-features .cards .card .box-tick {
+  height: 32px;
+  width: 32px;
+  background-color: #fff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.our-features .cards .card .box-tick:hover {
+  background-color: #4154f1;
+}
+
+.our-features .cards .card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #012970;
 }
