@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+main {
+  background: url("https://themewagon.github.io/FlexStart/assets/img/hero-bg.png")
+    top center no-repeat;
+  height: max-content;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 25px;
+  background-color: white;
+  transition: all 0.5s;
+  z-index: 997;
+  position: sticky;
+  top: 0;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav .logo img {
+  height: 30px;
+}
+
+nav .logo p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #012970;
+}
+
+nav .items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav .items ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav .items ul li {
+  list-style-type: none;
+  padding: 0 16px;
+  font-size: 0.85rem;
+  flex-wrap: wrap;
+}
+nav .items ul li:hover {
+  color: #2f6397;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+nav .items button {
+  height: 30px;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: #4154f1;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* main-content-part */
+
+.main-content-part {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  padding: 0 40px;
+  max-width: 90%;
+  margin: 80px auto;
+}
+
+.main-content-part .content {
+  line-height: 55px;
+}
+
+.main-content-part .content {
+  width: 50%;
+}
+
+.main-content-part .content h1 {
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  font-size: 2.3rem;
+}
+
+.main-content-part .content p {
+  margin: 5px 0 30px 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: color-mix(in srgb, #444444, transparent 30%);
+}
+
+.main-content-part .main-image img {
+  height: 23rem;
+  margin-left: 3rem;
+}
+
+.main-content-part .content .buttons {
+  display: flex;
+  gap: 30px;
+  padding: 10px 20px;
+}
+
+.main-content-part .content .buttons .get-started {
+  color: #ffffff;
+  background: color-mix(in srgb, #4154f1, transparent 15%);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 15px;
+  border-radius: 4px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.main-content-part .content .buttons .watch-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: 0.5s;
+  color: #444444;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+/* who-we-are */
+
+.who-we-are {
+  display: flex;
+  justify-content: space-around;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.who-we-are-content {
+  width: 50%;
+  background-color: color-mix(in srgb, #4154f1, transparent 95%);
+  padding: 40px;
+}
+
+.who-we-are-content h1 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.who-we-are-content h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.who-we-are-content p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+  color: #444444;
+  font-size: 14px;
+}
+
+.who-we-are-content button {
+  color: #ffffff;
+  background: #4154f1;
+  line-height: 0;
+  padding: 20px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.who-we-are-image img {
+  height: 20rem;
+  width: 25rem;
+  border-radius: 10px;
+}
+
+/* our-values */
+
+.our-values {
+  margin-top: 50px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.our-values p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: color-mix(in srgb, #4154f1, transparent 90%);
+  color: #4154f1;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  cursor: pointer;
+}
+
+.our-values .value-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.our-values .value-card .card {
+  flex: 1 1 300px;
+  max-width: 32%;
+  padding: 10px;
+  box-shadow: 0px 1px 12px -6px black;
+}
+
+.our-values .value-card .card img {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+  padding: 10px 20px;
+}
+
+.our-values .value-card .card h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #012970;
+}
+
+.our-values .value-card .card span {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #444444;
+  font-size: 15px;
+}
