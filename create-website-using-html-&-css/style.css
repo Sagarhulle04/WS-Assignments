@@ -461,3 +461,44 @@ nav .items button {
 .our-services .cards #pink {
   border-bottom: 2px solid #cf0628;
 }
+
+/* portfolio */
+
+.portfolio {
+  max-width: 90%;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.portfolio p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  background: color-mix(in srgb, #4154f1, transparent 90%);
+  color: #4154f1;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.portfolio h4 {
+  color: #012970;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: "Nunito", sans-serif;
+}
+
+.portfolio .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.portfolio .cards .card img {
+  height: 13rem;
+  width: 330px;
+}
