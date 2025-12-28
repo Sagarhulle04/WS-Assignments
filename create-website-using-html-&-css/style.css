@@ -502,3 +502,78 @@ nav .items button {
   height: 13rem;
   width: 330px;
 }
+
+/* team */
+
+.team {
+  max-width: 85%;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.team p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  background: color-mix(in srgb, #4154f1, transparent 90%);
+  color: #4154f1;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.team h4 {
+  color: #012970;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: "Nunito", sans-serif;
+}
+
+.team .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.team .cards .card {
+  height: max-content;
+  width: 22%;
+  box-shadow: 0px 1px 12px -6px black;
+  border-radius: 10px;
+}
+
+.team .cards .card:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.team .cards .card .image img {
+  width: 100%;
+  height: 14rem;
+  object-fit: fill;
+  border-bottom: 2px solid #012970;
+  border-radius: 10px;
+}
+
+.team .cards .card .card-content h2 {
+  color: #012970;
+}
+
+.team .cards .card .card-content span {
+  color: #444444;
+  font-size: 13px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.team .cards .card .card-content h6 {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #444444;
+  margin-bottom: 20px;
+}
