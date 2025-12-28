@@ -375,3 +375,89 @@ nav .items button {
   font-weight: 700;
   color: #012970;
 }
+
+/* our-services */
+
+.our-services {
+  max-width: 1200px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.our-services p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  background: color-mix(in srgb, #4154f1, transparent 90%);
+  color: #4154f1;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.our-services h4 {
+  color: #012970;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: "Nunito", sans-serif;
+}
+
+.our-services .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.our-services .cards .card {
+  height: max-content;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 1px 12px -6px black;
+  padding: 20px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.our-services .cards .card h3 {
+  color: #4154f1;
+}
+
+.our-services .cards .card span {
+  color: #444444;
+}
+
+.our-services .cards .card a {
+  text-decoration: none;
+}
+
+.our-services .cards #blue {
+  border-bottom: 2px solid #0dcaf0;
+}
+
+.our-services .cards #orange {
+  border-bottom: 2px solid orange;
+}
+
+.our-services .cards #green {
+  border-bottom: 2px solid green;
+}
+
+.our-services .cards #red {
+  border-bottom: 2px solid red;
+}
+
+.our-services .cards #purple {
+  border-bottom: 2px solid purple;
+}
+
+.our-services .cards #pink {
+  border-bottom: 2px solid #cf0628;
+}
