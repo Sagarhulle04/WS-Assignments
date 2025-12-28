@@ -25,7 +25,7 @@ nav {
   background-color: white;
   transition: all 0.5s;
   z-index: 997;
-  position: sticky;
+  position: fixed;
   top: 0;
 }
 
